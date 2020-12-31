@@ -1,0 +1,157 @@
+body{
+    
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.header {
+    background: url("bg.png") ;
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+
+}
+.navigationmenu a{
+    color:rgb(255, 255, 255);
+    font-family: Gigi ;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    margin-right:40px;
+    margin-left:40px;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px 30px;
+    transition: 1s;
+    align-items: center;
+   
+}
+    
+.navigationmenu a:hover{
+
+    background: rgb(0, 255, 234);
+    border:5px solid black;
+}
+.intro img{
+    border-spacing: 9px;
+    border:3px solid black;
+    margin-right: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.intro p{
+    font-family:freestyle script;
+    font-size: 50px;
+    text-align:center;
+    color:white;
+    padding-right:35%;
+}
+.intro span {
+    color:rgb(255, 238, 2);
+   font-family: Gigi ;
+   font-size: 70px;
+}
+.about-me p{
+    text-align: center;
+    margin: 0 10%;
+    font-family: papyrus;
+    font-size: 20px;
+}
+.about-me h2{
+    font-style: normal;
+    font-weight: bolder;
+    font-family: vivaldi;
+    text-align: center;
+    margin:3% 10%;
+    font-size:40px;
+    border-bottom: 2px solid royalblue;
+}
+.about-me{
+    background-color: rgb(70, 229, 250);
+    padding:5px 20px;
+}
+.about-me, .skills, .qualifications, .contact{
+    
+    border:1px solid black;
+}
+.skills{
+    text-align: center;
+    margin:10%;
+    background-color: rgb(85, 234, 253);
+    
+}
+.skills h2{
+    font-style: normal;
+    font-weight: bolder;
+    font-family: vivaldi;
+    text-align: center;
+    margin:3% 10%;
+    font-size:40px;
+    border-bottom: 2px solid royalblue;
+}
+.skills p{
+    text-align: center;
+    margin: 0 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+}
+.qualifications{
+    text-align: center;
+    margin:10%;
+    padding-top:20px;
+    background-color: rgb(79, 230, 250);
+}
+.qualifications h2{
+    font-style: normal;
+    font-weight: bolder;
+    font-family: vivaldi;
+    text-align: center;
+    margin:3% 10%;
+    font-size:40px;
+    border-bottom: 2px solid royalblue;
+}
+.qualifications p{
+    text-align: center;
+    margin: 0 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.contact{
+    text-align: center;
+    margin:10%;
+    padding-top:20px;
+    background-color: rgb(76, 228, 248);
+}
+.contact h2{
+        font-style: normal;
+        font-weight: bolder;
+        font-family: vivaldi;
+        text-align: center;
+        margin:3% 10%;
+        font-size:40px;
+        border-bottom: 2px solid royalblue;
+}
+.qualifications span{
+    color: rgb(255, 2, 87);
+}
+
+.contact p{
+    text-align: center;
+    margin: 1% 20%;
+    pading:0 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.skills:hover,.qualifications:hover,.about-me:hover,.contact:hover{
+background-color: rgba(4, 255, 180, 0.897);
+
+}
+.intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: top;
+    font-size: 50px;
+    color: white;
+}
